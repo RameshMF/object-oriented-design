@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.2.2" icons="true" automaticImage="PNG" always-add-relationships="false" generalizations="true" 
+  realizations="true" associations="true" dependencies="false" nesting-relationships="true" router="FAN">  
+  <class id="1" language="java" name="com.ramesh.ood.principles.dependencyinversion.bad.Customer" 
+    project="ood-principles" 
+    file="/ood-principles/src/main/java/com/ramesh/ood/principles/dependencyinversion/bad/Customer.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="209" width="346" x="-144" y="225"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="2" language="java" name="com.ramesh.ood.principles.dependencyinversion.bad.CustomerDao" 
+    project="ood-principles" 
+    file="/ood-principles/src/main/java/com/ramesh/ood/principles/dependencyinversion/bad/CustomerDao.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="390" y="110"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="3" language="java" name="com.ramesh.ood.principles.dependencyinversion.bad.DatabaseConfig" 
+    project="ood-principles" 
+    file="/ood-principles/src/main/java/com/ramesh/ood/principles/dependencyinversion/bad/DatabaseConfig.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1125" y="167"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="4" language="java" name="com.ramesh.ood.principles.dependencyinversion.bad.MySQLDataSource" 
+    project="ood-principles" 
+    file="/ood-principles/src/main/java/com/ramesh/ood/principles/dependencyinversion/bad/MySQLDataSource.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="835" y="517"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="5" language="java" name="com.ramesh.ood.principles.dependencyinversion.bad.VoiletCustomerDaoImpl" 
+    project="ood-principles" 
+    file="/ood-principles/src/main/java/com/ramesh/ood/principles/dependencyinversion/bad/VoiletCustomerDaoImpl.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="418" y="358"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="6" language="java" name="com.ramesh.ood.principles.dependencyinversion.bad.DataSource" 
+    project="ood-principles" 
+    file="/ood-principles/src/main/java/com/ramesh/ood/principles/dependencyinversion/bad/DataSource.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="795" y="197"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <association id="7">    
+    <end type="SOURCE" refId="5" navigable="false">      
+      <attribute id="8" name="dataSource"/>      
+      <multiplicity id="9" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="6" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="10">    
+    <end type="SOURCE" refId="4" navigable="false">      
+      <attribute id="11" name="config"/>      
+      <multiplicity id="12" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="3" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="13">    
+    <end type="SOURCE" refId="5"/>    
+    <end type="TARGET" refId="2"/>  
+  </realization>  
+  <dependency id="14">    
+    <end type="SOURCE" refId="5"/>    
+    <end type="TARGET" refId="1"/>  
+  </dependency>  
+  <realization id="15">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="6"/>  
+  </realization>  
+  <dependency id="16">    
+    <end type="SOURCE" refId="5"/>    
+    <end type="TARGET" refId="4"/>  
+  </dependency>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+    sort-features="false" accessors="true" visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true" static="true"/>    
+    <operations public="true" package="true" protected="true" private="true" static="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>

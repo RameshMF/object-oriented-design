@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.2.2" icons="true" automaticImage="PNG" always-add-relationships="false" generalizations="true" 
+  realizations="true" associations="true" dependencies="false" nesting-relationships="true" router="FAN">  
+  <class id="1" language="java" name="com.ramesh.ood.principles.dependencyinversion.good.Customer" 
+    project="ood-principles" 
+    file="/ood-principles/src/main/java/com/ramesh/ood/principles/dependencyinversion/good/Customer.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="191" width="354" x="-46" y="151"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="2" language="java" name="com.ramesh.ood.principles.dependencyinversion.good.CustomerDao" 
+    project="ood-principles" 
+    file="/ood-principles/src/main/java/com/ramesh/ood/principles/dependencyinversion/good/CustomerDao.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="587" y="13"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="3" language="java" name="com.ramesh.ood.principles.dependencyinversion.good.CustomerDaoImpl" 
+    project="ood-principles" 
+    file="/ood-principles/src/main/java/com/ramesh/ood/principles/dependencyinversion/good/CustomerDaoImpl.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="589" y="263"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="4" language="java" name="com.ramesh.ood.principles.dependencyinversion.good.DatabaseConfig" 
+    project="ood-principles" 
+    file="/ood-principles/src/main/java/com/ramesh/ood/principles/dependencyinversion/good/DatabaseConfig.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="170" width="354" x="802" y="-55"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="5" language="java" name="com.ramesh.ood.principles.dependencyinversion.good.DataSource" 
+    project="ood-principles" 
+    file="/ood-principles/src/main/java/com/ramesh/ood/principles/dependencyinversion/good/DataSource.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1028" y="254"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="6" language="java" name="com.ramesh.ood.principles.dependencyinversion.good.H2DataSource" 
+    project="ood-principles" 
+    file="/ood-principles/src/main/java/com/ramesh/ood/principles/dependencyinversion/good/H2DataSource.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="807" y="482"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="7" language="java" name="com.ramesh.ood.principles.dependencyinversion.good.MySQLDataSource" 
+    project="ood-principles" 
+    file="/ood-principles/src/main/java/com/ramesh/ood/principles/dependencyinversion/good/MySQLDataSource.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1216" y="486"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <dependency id="8">    
+    <end type="SOURCE" refId="5"/>    
+    <end type="TARGET" refId="4"/>  
+  </dependency>  
+  <dependency id="9">    
+    <end type="SOURCE" refId="3"/>    
+    <end type="TARGET" refId="1"/>  
+  </dependency>  
+  <association id="10">    
+    <end type="SOURCE" refId="3" navigable="false">      
+      <attribute id="11" name="dataSource"/>      
+      <multiplicity id="12" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="5" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="13">    
+    <end type="SOURCE" refId="7"/>    
+    <end type="TARGET" refId="5"/>  
+  </realization>  
+  <realization id="14">    
+    <end type="SOURCE" refId="3"/>    
+    <end type="TARGET" refId="2"/>  
+  </realization>  
+  <realization id="15">    
+    <end type="SOURCE" refId="6"/>    
+    <end type="TARGET" refId="5"/>  
+  </realization>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+    sort-features="false" accessors="true" visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true" static="true"/>    
+    <operations public="true" package="true" protected="true" private="true" static="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>
