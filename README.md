@@ -4,22 +4,48 @@
 <span style="font-family: &quot;verdana&quot; , sans-serif;">Posts about <b>Oops Principles</b>, <b>Oops concepts</b> in order to design strong object-oriented design for J2EE Web Applications.</span><br>
 <span style="font-family: &quot;verdana&quot; , sans-serif;">All <b>Oops concepts</b> are explained with real-world examples, lots of source code with an explanation, applicability, class diagrams etc.</span><br>
 <h3 class="title">
-<span style="font-family: &quot;verdana&quot; , sans-serif;">OOP Fundamentals</span></h3>
-<div class="widget-content">
-<ul>
-<li><a href="http://www.javaguides.net/2018/05/oops-fundamentals.html" target="_blank"><span style="font-family: &quot;verdana&quot; , sans-serif;">Oops Fundamentals</span></a></li>
-<li><a href="http://www.javaguides.net/2018/05/abstraction-in-java.html" target="_blank"><span style="font-family: &quot;verdana&quot; , sans-serif;">Abstraction in Java</span></a></li>
-<li><a href="http://www.javaguides.net/2018/05/encapsulation-in-java.html" target="_blank"><span style="font-family: &quot;verdana&quot; , sans-serif;">Encapsulation in Java</span></a></li>
-<li><a href="http://www.javaguides.net/2018/05/inheritance-in-java.html" target="_blank"><span style="font-family: &quot;verdana&quot; , sans-serif;">Inheritance in Java</span></a></li>
-<li><a href="http://www.javaguides.net/2018/05/polymorphism-in-java.html" target="_blank"><span style="font-family: &quot;verdana&quot; , sans-serif;">Polymorphism in Java</span></a></li>
-<li><a href="http://www.javaguides.net/2018/05/association-in-java.html" target="_blank"><span style="font-family: &quot;verdana&quot; , sans-serif;">Association in Java</span></a></li>
-<li><a href="https://ramesh-java-design-patterns.blogspot.in/2018/05/composition-in-java.html" target="_blank"><span style="font-family: &quot;verdana&quot; , sans-serif;">Composition in Java</span></a></li>
-<li><a href="http://www.javaguides.net/2018/05/composition-in-java.html" target="_blank"><span style="font-family: &quot;verdana&quot; , sans-serif;">Aggregation in Java</span></a></li>
-<li><a href="http://www.javaguides.net/2018/05/delegation-in-java.html" target="_blank"><span style="font-family: &quot;verdana&quot; , sans-serif;">Delegation in Java</span></a></li>
-<li><a href="http://www.javaguides.net/2018/05/coupling-in-java.html" target="_blank"><span style="font-family: &quot;verdana&quot; , sans-serif;">Coupling in Java</span></a></li>
-<li><a href="http://www.javaguides.net/2018/05/cohesion-in-java.html" target="_blank"><span style="font-family: &quot;verdana&quot; , sans-serif;">Cohesion in Java</span></a></li>
-</ul>
-</div>
+<span style="font-family: &quot;verdana&quot; , sans-serif;">Oops Concepts</span></h3>
+<div>
+<span style="font-family: &quot;verdana&quot; , sans-serif;"></span><br>
+<ul style="background-color: white; box-sizing: border-box; color: #24292e; font-family: -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Helvetica, Arial, sans-serif, &quot;Apple Color Emoji&quot;, &quot;Segoe UI Emoji&quot;, &quot;Segoe UI Symbol&quot;; font-size: 16px; margin-bottom: 0px !important; margin-top: 0px; padding-left: 2em;"><span style="font-family: &quot;verdana&quot; , sans-serif;">
+<li style="box-sizing: border-box;"><div style="box-sizing: border-box; margin-bottom: 16px; margin-top: 16px;">
+<a href="http://www.javaguides.net/2018/08/abstraction-in-java-with-example.html" rel="nofollow" style="background-color: transparent; box-sizing: border-box; color: #0366d6; text-decoration-line: none;">Abstraction in Java with Example</a></div>
+</li>
+<li style="box-sizing: border-box; margin-top: 0.25em;"><div style="box-sizing: border-box; margin-bottom: 16px; margin-top: 16px;">
+<a href="http://www.javaguides.net/2018/08/encapsulation-in-java-with-example.html" rel="nofollow" style="background-color: transparent; box-sizing: border-box; color: #0366d6; text-decoration-line: none;">Encapsulation in Java with Example</a></div>
+</li>
+<li style="box-sizing: border-box; margin-top: 0.25em;"><div style="box-sizing: border-box; margin-bottom: 16px; margin-top: 16px;">
+<a href="http://www.javaguides.net/2018/08/inheritance-in-java-with-example.html" rel="nofollow" style="background-color: transparent; box-sizing: border-box; color: #0366d6; text-decoration-line: none;">Inheritance in Java with Example</a></div>
+</li>
+<li style="box-sizing: border-box; margin-top: 0.25em;"><div style="box-sizing: border-box; margin-bottom: 16px; margin-top: 16px;">
+<a href="http://www.javaguides.net/2018/08/polymorphism-in-java-with-example.html" rel="nofollow" style="background-color: transparent; box-sizing: border-box; color: #0366d6; text-decoration-line: none;">Polymorphism in Java with Example</a></div>
+</li>
+<li style="box-sizing: border-box; margin-top: 0.25em;"><div style="box-sizing: border-box; margin-bottom: 16px; margin-top: 16px;">
+<a href="http://www.javaguides.net/2018/08/composition-in-java-with-example.html" rel="nofollow" style="background-color: transparent; box-sizing: border-box; color: #0366d6; text-decoration-line: none;">Composition in Java with Example</a></div>
+</li>
+<li style="box-sizing: border-box; margin-top: 0.25em;"><div style="box-sizing: border-box; margin-bottom: 16px; margin-top: 16px;">
+<a href="http://www.javaguides.net/2018/08/aggregation-in-java-with-example.html" rel="nofollow" style="background-color: transparent; box-sizing: border-box; color: #0366d6; text-decoration-line: none;">Aggregation in Java with Example</a></div>
+</li>
+<li style="box-sizing: border-box; margin-top: 0.25em;"><div style="box-sizing: border-box; margin-bottom: 16px; margin-top: 16px;">
+<a href="http://www.javaguides.net/2018/08/association-in-java-with-example.html" rel="nofollow" style="background-color: transparent; box-sizing: border-box; color: #0366d6; text-decoration-line: none;">Association in Java with Example</a></div>
+</li>
+<li style="box-sizing: border-box; margin-top: 0.25em;"><div style="box-sizing: border-box; margin-bottom: 16px; margin-top: 16px;">
+<a href="http://www.javaguides.net/2018/08/cohesion-in-java-with-example.html" rel="nofollow" style="background-color: transparent; box-sizing: border-box; color: #0366d6; text-decoration-line: none;">Cohesion in Java with Example</a></div>
+</li>
+<li style="box-sizing: border-box; margin-top: 0.25em;"><div style="box-sizing: border-box; margin-bottom: 16px; margin-top: 16px;">
+<a href="http://www.javaguides.net/2018/08/coupling-in-java-with-example.html" rel="nofollow" style="background-color: transparent; box-sizing: border-box; color: #0366d6; text-decoration-line: none;">Coupling in Java with Example</a></div>
+</li>
+<li style="box-sizing: border-box; margin-top: 0.25em;"><div style="box-sizing: border-box; margin-bottom: 16px; margin-top: 16px;">
+<a href="http://www.javaguides.net/2018/08/delegation-in-java-with-example.html" rel="nofollow" style="background-color: transparent; box-sizing: border-box; color: #0366d6; text-decoration-line: none;">Delegation in Java with Example</a></div>
+</li>
+</span></ul>
+<span style="font-family: &quot;verdana&quot; , sans-serif;">
+</span>
+<br>
+<div>
+<span style="font-family: &quot;verdana&quot; , sans-serif;"><span style="color: #24292e; font-family: &quot;verdana&quot; , sans-serif;">Source code is available on GitHub :&nbsp;<a href="https://github.com/RameshMF/object-oriented-design/tree/master/oops-concepts/src/main/java/com/ramesh/ood/concepts" target="_blank">Object Oriented Design Guide</a></span></span></div>
+<span style="font-family: &quot;verdana&quot; , sans-serif;">
+</span></div>
 <div class="widget LinkList" data-version="2" id="LinkList9">
 <h3 class="title">
 <span style="font-family: &quot;verdana&quot; , sans-serif;">Design Principles(SOLID Oops Principles)</span></h3>
@@ -31,6 +57,8 @@
 <li><a href="http://www.javaguides.net/2018/02/interface-segregation-principle.html" target="_blank"><span style="font-family: &quot;verdana&quot; , sans-serif;">Interface Segregation Principle</span></a></li>
 <li><span style="font-family: &quot;verdana&quot; , sans-serif;"><a href="http://www.javaguides.net/2018/02/dependency-inversion-principle.html" target="_blank">Dependency Inversion Principle</a></span></li>
 </ul>
+<div>
+<span style="font-family: &quot;verdana&quot; , sans-serif;"><span style="color: #24292e; font-family: , &quot;blinkmacsystemfont&quot; , &quot;segoe ui&quot; , &quot;helvetica&quot; , &quot;arial&quot; , sans-serif , &quot;apple color emoji&quot; , &quot;segoe ui emoji&quot; , &quot;segoe ui symbol&quot;;">Source code is available on GitHub :&nbsp;</span><a href="https://github.com/RameshMF/object-oriented-design/tree/master/oops-principles" style="font-family: -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Helvetica, Arial, sans-serif, &quot;Apple Color Emoji&quot;, &quot;Segoe UI Emoji&quot;, &quot;Segoe UI Symbol&quot;;" target="_blank">Design Principles</a></span></div>
 </div>
 </div>
 </div>
